@@ -70,7 +70,7 @@ export class Form extends Component {
 	render() {
 		const { countries, states, cities } = this.state;
 		return (
-			<div>
+			<div className="Form">
 				{
 					this.state.isloaded ? <div>
 						<form className="form">
